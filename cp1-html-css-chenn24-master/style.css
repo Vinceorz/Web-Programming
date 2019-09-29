@@ -1,0 +1,55 @@
+/*
+  Nuo Chen
+  04/06/2019
+
+  This is the style.css page for my portfolio of web development work.
+  It is used by all pages in my portfolio to give the site a consistent look and feel.
+  It includes the style for the body, section, article, table, headers, img and link.
+*/
+
+/* Remember: This body ruleset is to get you started, but does not count towards the CP requirements! */
+body {
+  background-image: url("https://i.stack.imgur.com/p9mUO.jpg");
+  background-size: cover;
+  font-family: "Times New Roman", Times, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+a {
+  color: yellow;
+}
+.img1 {
+  width: 50px;
+  height: 50px;
+}
+
+.img2 {
+  width:50px;
+  height:60px;
+}
+
+article, section {
+  font-size: 20px;
+}
+
+table {
+  font-size: 30px;
+  position: relative;
+  width: 400px;
+  height: 300px;
+  border: 4px;
+  border-style: solid;
+  border-color: yellow;
+  outline-style: double;
+  outline-color: purple;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2,h3,h4 {
+  font-size: 30px;
+}
